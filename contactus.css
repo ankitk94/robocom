@@ -1,0 +1,149 @@
+body {
+    background-color: #fff;
+}
+
+.topbar{
+    height: 165px;
+    background-color: #1ea78D;
+    text-align: right;
+}
+
+.topbar p{
+    text-align:center; 
+    font-family:"open sans";
+    font-weight: 600;
+    padding-top: 18.5px;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+img{
+    width: 28px;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+
+.listlabinfo{
+   margin-left:auto;
+   margin-right: auto;
+   margin-top: 36px;
+   margin-bottom: 50px;
+   background-color: #fff;
+   max-width: 570px;
+   border-radius: 2px; 
+   padding-left:58px;
+   padding-top: 25px;
+   padding-bottom: 88px;
+}
+
+.listlabinfo h5{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "open sans";
+    color: #999;
+    font-weight: 400;
+    padding-bottom: 10px;  
+}
+
+.listlabinfo input{
+  margin-top: 14px;
+  margin-bottom: 6px;
+  width: 84%;
+  height: 35px;
+  background: #fff;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #E6E6E6;
+  font-size: 13px;
+  color: #000;
+  background: none;
+  font-family: "Open Sans";
+  font-weight:500;
+  letter-spacing: 1px;
+}
+
+.listlabinfo input:focus{
+    border-bottom: 1px solid #1ea78D;
+}
+
+#contact_submit{
+    margin-top: 24px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid #E6E6E6;
+    background-color: #1ea78D;
+    color: #fff;
+}
+
+#contact_textarea{
+    margin-top: 20px;
+    margin-bottom: 6px;
+    width: 84%;
+    background: #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #E6E6E6;
+    font-size: 13px;
+    color: #000;
+    background: none;
+    font-family: "Open Sans";
+    font-weight:500;
+    letter-spacing: 1px;
+    resize: none;
+    overflow: hidden;
+}
+
+#contact_textarea:focus{
+  border-bottom: 1px solid #1ea78D;
+}
+
+-webkit-scrollbar { 
+    display: none; 
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-md-6 {
+    border-right: 1px solid #f4f7f4
+}
+
+.contactinfo{
+   margin-left:0px;
+   margin-right: auto;
+   margin-top: 72px;
+   margin-bottom: 0px;
+   background-color: #fff;
+   max-width: 570px;
+   border-radius: 2px; 
+   padding-left:65px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   line-height: 3;
+}
+
+.contactinfo h5{
+    display: inline;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "open sans";
+    color: #1EA78D;
+    font-weight: 400;
+    padding-bottom: 10px;  
+}
+
+.contactinfo p{
+    text-align: left;
+    font-size: 15px;
+    font-family: "open sans";
+    color: #000;
+    font-weight: 400;
+}

@@ -1,0 +1,62 @@
+body {
+    background-color: #f4f7f4;
+}
+
+.topbar{
+    height: 226px;
+    background-color: #1ea780;
+    text-align: right;
+}
+
+.topbar p{
+    text-align:center; 
+    font-family:"open sans";
+    font-weight: 600;
+    padding-top: 48.5px;
+    font-size: 30px;
+    color: #fff;
+}
+
+img{
+    width: 28px;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+
+.touchtop{
+    color: #000;
+    font-size: 13px;
+    font-family: "open sans";
+    letter-spacing: 0.5px;
+}
+
+.listlabinfo{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 105px;
+   margin-bottom: 50px;
+   background-color: transparent;
+   max-width: 451px;
+   padding-left:58px;
+   padding-top: 25px;
+   padding-bottom: 60px;
+   padding-right: 46px;
+}
+
+.contacttop{
+    text-align: center;
+    margin-top: 10px;
+    color: #999;
+    font-size: 21px;
+    font-family: "open sans";
+    letter-spacing: 0.5px;
+}
+
+.contactinfo{
+    text-align: justify;
+    margin-top: 25px;
+    color: #999;
+    font-size: 15px;
+    font-family: "open sans";
+    letter-spacing: 0.5px;
+}

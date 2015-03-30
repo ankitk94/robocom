@@ -1,0 +1,90 @@
+.sback{
+    background-color: #1ea78D;
+}
+
+body{
+    background-color: #f4f7f4;
+}
+
+.container1{
+    min-height: 620px;
+    background-color: #f4f7f4;
+}
+
+.container-1 input#search{
+  margin-top: -5px;
+  margin-left: 60px;
+  width: 25%;
+  height: 32px;
+  background-color: #1ea17d;
+  border: none;
+  font-size: 10pt;
+  font-family: "open sans";
+  float: left;
+  color: #262626;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 0px;
+  color: #2b303b;
+}
+
+.container-1 input#search:focus{
+    background-color: #fff;
+}
+
+
+.container-1 input#searchbutton{
+  position: absolute;
+  margin-top: -1px;
+  margin-left: -29px;
+  width: 25px;
+  display: inline-block;
+}
+
+.container1 h2{
+    text-align: center;
+    margin-top: 65px;
+    font-family: "Open Sans";
+    font-weight: 200;
+    font-size: 35px;
+    color: #30333A;
+    letter-spacing: 1.5px;
+}
+
+.teamimgdiv{
+    margin-top:35px;
+    overflow: hidden;
+    width: 330px;
+    height: 178px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.teamimgdiv1{
+    margin-top:50px;
+    overflow: hidden;
+    width: 330px;
+    height: 178px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+.teamimg{
+    width: 330px;
+    height: 178px;
+}
+
+.membername{
+   text-align: center;
+   margin-top: 20px;
+   font-family: "Open Sans";
+   font-size: 14px;
+   font-weight: 600;
+   color: #30333A; 
+   letter-spacing: 4px;
+}
+
