@@ -34,7 +34,6 @@
       <input type="text" name="fname" placeholder="First Name"   id="listlab_name" autocomplete="off" required /></br>
       <input type="text" name="lname" placeholder="Last Name"   id="listlab_name" autocomplete="off" required /></br>
       <input type="email" name="email" placeholder="Email Id"   id="listlab_name" autocomplete="off" required /></br>
-      <input type="password" name="password" placeholder="Password"   id="listlab_name" autocomplete="off" required /></br>
       <input type="tel" name="contact" placeholder="Phone Number"   id="listlab_name" autocomplete="off" required /></br>
       <input type="text" name="job" placeholder="Job Title"   id="listlab_name" autocomplete="off" required /></br>
       <input type="submit" name="Submit" Value="Next"   id="listlab_submit" autocomplete="off" required /></br>

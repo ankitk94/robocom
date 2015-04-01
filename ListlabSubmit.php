@@ -35,7 +35,7 @@ ob_start();
 	{
 		include_once('config.php');
 		$connect = mysqli_connect($servername,$username,$password,$dbname);
-		$query = "INSERT INTO user(emailID,password,first_name,last_name,contact,job_title,university,labtype) VALUES('" . $_POST['email'] . "','" . $_POST['password'] . "','" . $_POST['fname'] . "','" . $_POST['lname'] . "','" . $_POST['contact'] . "','" . $_POST['job'] . "','" . $_POST['uname'] . "','" . $_POST['lab_type'] . "');";
+		$query = "INSERT INTO user(emailID,first_name,last_name,contact,job_title,university,labtype) VALUES('" . $_POST['email'] . "','" . $_POST['fname'] . "','" . $_POST['lname'] . "','" . $_POST['contact'] . "','" . $_POST['job'] . "','" . $_POST['uname'] . "','" . $_POST['lab_type'] . "');";
 	
 	
 	

@@ -1,3 +1,3 @@
 <?php
-	$pass = 'chhaprauli';
+	$pass = '';
 ?>

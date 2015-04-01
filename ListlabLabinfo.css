@@ -105,6 +105,33 @@ img{
     outline: none;
 }
 
+.listlabinfo input#listlab_button2:checked{
+    width: auto;
+    height: 19px;
+    float: left;
+    margin: auto;
+    margin-right: 10px;
+    outline: none;
+    background-color: #1ea780;
+}
+
+.listlabinfo input#listlab_button2{
+    width: auto;
+    height: 19px;
+    float: left;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.listlabinfo input#listlab_button2:focus{
+    width: auto;
+    height: 19px;
+    float: left;
+    margin: auto;
+    margin-right: 10px;
+    outline: none;
+}
+
 .listlabinfo input#listlab_button:checked{
     width: auto;
     height: 19px;
