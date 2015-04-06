@@ -18,7 +18,7 @@ if(isset($_POST['submit']))
   $admin = $_POST['admin'];
   $type = $_POST['type'];
   $query = "INSERT INTO university(universityID,name,description,admin,type,city,state,country) VALUES($id,'$name','$description','$admin','$type','$city','$state','$country');";
-  echo $query;
+  //  echo $query;
   $result = mysqli_query($connect,$query);
   if(!$result)
   {
@@ -99,6 +99,28 @@ function chkPanelChanged(obj) {
 		alert('ads');
 	}
 }
+
+  
+function changetext1(){
+  
+  var spans = $( "#option1" );
+  console.log($( "a" ).find( spans ).text());
+  $('.livesearchinput').val($( "a" ).find( spans ).text());
+}
+function changetext2(){
+  
+  var spans2 = $( "#option2" );
+  console.log($( "a" ).find( spans2 ).text());
+  $('.livesearchinput').val($( "a" ).find( spans2 ).text());
+}
+function changetext3(){
+  
+  var spans3 = $( "#option3" );
+  console.log($( "a" ).find( spans3 ).text());
+  $('.livesearchinput').val($( "a" ).find( spans3 ).text());
+}
+
+
   </script>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -133,7 +155,7 @@ function chkPanelChanged(obj) {
          
         <div class="col-md-8">
            
-            <input type="text" name="uname" placeholder="University/ Company Name"  id="listlab_name1" onkeyup="livevalue(this.value)" checked="checked" disabled id="search"/></br>
+            <input class="livesearchinput" type="text" name="uname" placeholder="University/ Company Name"  id="listlab_name1" onkeyup="livevalue(this.value)" checked="checked" disabled id="search"/></br>
            
            
              	<div id="content"></div>
@@ -142,7 +164,7 @@ function chkPanelChanged(obj) {
             
            
          <div class="col-md-8" style="display:none;"> 
-            <input type="text" name="uname" placeholder="University/ Company Name"  id="listlab_name2"  disabled /></br>
+            <input type="text" class="livesearchinput" name="uname" placeholder="University/ Company Name"  id="listlab_name2"  disabled /></br>
           </div>
       <input type="hidden" name="fname" value=<?php echo $_POST['fname']; ?> />
       <input type="hidden" name="lname" value=<?php echo $_POST['lname']; ?> />

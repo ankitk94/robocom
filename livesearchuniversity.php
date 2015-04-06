@@ -36,6 +36,7 @@ if ($result->num_rows > 0) {
 
 
     <div id='light'>
+            <p>No Results Found! Add a New One!</p>
             <form name='f1' action='' method='post'>
 
                     <input type='text' name='name' required placeholder='Name'/><br>
