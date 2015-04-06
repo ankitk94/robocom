@@ -88,7 +88,7 @@ img{
   letter-spacing: 1px; 
 }
 
-.listlabinfo input#listlab_button{
+.listlabinfo input{
     width: auto;
     height: 19px;
     float: left;
@@ -96,7 +96,7 @@ img{
     margin-right: 10px;
 }
 
-.listlabinfo input#listlab_button:focus{
+.listlabinfo input:focus{
     width: auto;
     height: 19px;
     float: left;
@@ -105,7 +105,7 @@ img{
     outline: none;
 }
 
-.listlabinfo input#listlab_button2:checked{
+.listlabinfo input:checked{
     width: auto;
     height: 19px;
     float: left;
@@ -115,7 +115,7 @@ img{
     background-color: #1ea780;
 }
 
-.listlabinfo input#listlab_button2{
+.listlabinfo input{
     width: auto;
     height: 19px;
     float: left;
@@ -123,7 +123,7 @@ img{
     margin-right: 10px;
 }
 
-.listlabinfo input#listlab_button2:focus{
+.listlabinfo input:focus{
     width: auto;
     height: 19px;
     float: left;
@@ -132,7 +132,7 @@ img{
     outline: none;
 }
 
-.listlabinfo input#listlab_button:checked{
+.listlabinfo input:checked{
     width: auto;
     height: 19px;
     float: left;
